@@ -15,7 +15,7 @@ class Numbers {
   }
   printNumbers() {
     //print the numbers in data
-    console.log (this.data)
+    console.table (this.data)
   }
   odds() {
     //return the odd numbers in data
